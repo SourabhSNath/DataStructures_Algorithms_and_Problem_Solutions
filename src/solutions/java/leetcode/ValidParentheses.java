@@ -38,7 +38,7 @@ public class ValidParentheses {
             Stack<Character> parenStack = new Stack<>();
 
             for (char c : s.toCharArray()) {
-                if (c == ')' || c == '}' || c == ']') {
+                if (braceMap.containsKey(c)) {
                     if (parenStack.isEmpty() || parenStack.pop() != braceMap.get(c)) {
                         return false;
                     }
