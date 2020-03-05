@@ -29,6 +29,8 @@ public class IntersectionOfTwoArraysII {
         public static int[] intersect(int[] nums1, int[] nums2) {
 
             Map<Integer, Integer> map;
+
+            // To decrease the number of loops in the getSolution method
             if (nums1.length > nums2.length) {
                 map = getMap(nums1);
                 return getSolution(map, nums2);

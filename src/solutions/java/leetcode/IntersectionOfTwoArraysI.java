@@ -15,6 +15,7 @@ import java.util.*;
 public class IntersectionOfTwoArraysI {
 
     public static void main(String[] args) {
+        // Map containing both arrays required for the questions
         Map<int[], int[]> questionMap = new LinkedHashMap<>();
         questionMap.put(new int[]{1, 2, 2, 1}, new int[]{2, 2});
         questionMap.put(new int[]{4, 9, 5}, new int[]{9, 4, 9, 8, 4});
