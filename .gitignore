@@ -1,3 +1,3 @@
 # Project exclude paths
 /out/
-Test.java
+/src/solutions/java/random/Test.java
