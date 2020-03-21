@@ -9,7 +9,7 @@ import java.util.Iterator;
  * @param <T>
  */
 
-@SuppressWarnings({"unchecked", "unused"})
+@SuppressWarnings({"unchecked"})
 public class BasicStack<T> implements Iterable<T> {
     private int maxSize;
 

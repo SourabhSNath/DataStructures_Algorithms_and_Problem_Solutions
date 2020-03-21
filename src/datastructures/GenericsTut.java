@@ -85,8 +85,8 @@ public class GenericsTut {
 
 
         //raw use
-        Method method = new Method();
-        method.doThis(1, 2);
-        System.out.println(method.getSomething(1));
+        // Method method = new Method();
+        // method.doThis(1, 2);
+        // System.out.println(method.getSomething(1));
     }
 }
