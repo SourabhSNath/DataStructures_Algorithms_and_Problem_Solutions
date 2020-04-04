@@ -11,9 +11,9 @@ public class BinarySearch {
 
 //        System.out.println(binarySearch(array, 3));
 
-        try{
-            int i = 100/0;
-        }catch (Exception e){
+        try {
+            int i = 100 / 0;
+        } catch (Exception e) {
             System.out.println(e);
         }
 
@@ -25,12 +25,12 @@ public class BinarySearch {
         if (array.length == 0) return -1;
         int start = 0, end = array.length - 1;
         int mid = 0;
-        while (start + 1 < end){
-            mid = (start + end)/2;
-            if (array[mid] == i){
+        while (start + 1 < end) {
+            mid = (start + end) / 2;
+            if (array[mid] == i) {
                 return mid;
-            }else if(array[mid] < i){
-                mid = (start + mid-1)/2;
+            } else if (array[mid] < i) {
+                mid = (start + mid - 1) / 2;
                 end = mid;
             }
         }

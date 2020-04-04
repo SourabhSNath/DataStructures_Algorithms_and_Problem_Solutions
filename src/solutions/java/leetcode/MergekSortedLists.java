@@ -11,8 +11,8 @@ public class MergekSortedLists {
         ListNode output = new Solution().mergeKSortedLists(lists);
 
         System.out.print("Output: ");
-        while(output.next!=null){
-            System.out.print(output.val +" -> ");
+        while (output.next != null) {
+            System.out.print(output.val + " -> ");
             output = output.next;
         }
         System.out.println(output.val);
@@ -30,15 +30,15 @@ public class MergekSortedLists {
             ListNode new_node = new ListNode(0);
             ListNode dummy = new_node;
 
-            for(int i =0; i< lists.length-1; i++){
+            for (int i = 0; i < lists.length - 1; i++) {
                 ListNode l1 = lists[i];
-                ListNode l2 = lists[i+1];
+                ListNode l2 = lists[i + 1];
 
-                while(l1!=null && l2!=null){
-                    if(l1.val< l2.val){
+                while (l1 != null && l2 != null) {
+                    if (l1.val < l2.val) {
                         dummy.next = l1;
                         l1 = l1.next;
-                    }else{
+                    } else {
                         dummy.next = l2;
                         l2 = l2.next;
                     }
@@ -46,14 +46,13 @@ public class MergekSortedLists {
                     dummy = dummy.next;
                 }
 
-                if(l1!=null) dummy.next = l1;
-                if(l2!=null) dummy.next = l2;
+                if (l1 != null) dummy.next = l1;
+                if (l2 != null) dummy.next = l2;
             }
 
             return new_node;
         }
     }
-
 
 
     // Inputs

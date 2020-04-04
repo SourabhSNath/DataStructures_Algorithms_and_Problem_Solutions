@@ -20,10 +20,10 @@ public class MeanderingArray {
         Iterator<Integer> dscIterator = dscList.iterator();
 
         int count = 0;
-        while (ascIterator.hasNext() && dscIterator.hasNext()){
-            if (count%2 != 0){
+        while (ascIterator.hasNext() && dscIterator.hasNext()) {
+            if (count % 2 != 0) {
                 meanderingList.add(ascIterator.next());
-            }else{
+            } else {
                 meanderingList.add(dscIterator.next());
             }
             count++;

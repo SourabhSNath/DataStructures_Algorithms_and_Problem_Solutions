@@ -16,7 +16,7 @@ public class Stuff {
         System.out.println((x & hex) % a);
 
         //
-        System.out.println(Integer.toBinaryString(5) +" & " + Integer.toBinaryString(a));
+        System.out.println(Integer.toBinaryString(5) + " & " + Integer.toBinaryString(a));
         System.out.println(5 & a);
     }
 }

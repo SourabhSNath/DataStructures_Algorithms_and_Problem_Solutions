@@ -9,7 +9,7 @@ public class Abc7 {
 
             for (int j = 1; j < 5; j++) {
                 System.out.print(String.format("%02d", val) + " ");
-                val +=5;
+                val += 5;
             }
             System.out.println();
         }
