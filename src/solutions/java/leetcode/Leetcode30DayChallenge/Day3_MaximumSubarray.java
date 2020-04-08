@@ -2,6 +2,17 @@ package solutions.java.leetcode.Leetcode30DayChallenge;
 
 import static java.lang.Math.max;
 
+/**
+ * Given an integer array nums, find the contiguous subarray (containing at
+ * least one number) which has the largest sum and return its sum.
+ * 
+ * Input: [-2,1,-3,4,-1,2,1,-5,4],  
+ * <p>
+ * Output: 6
+ * <p>
+ * Explanation: [4,-1,2,1] has the largest sum = 6.
+ */
+
 public class Day3_MaximumSubarray {
 
     public static void main(String[] args) {
