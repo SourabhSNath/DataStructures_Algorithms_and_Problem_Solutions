@@ -1,7 +1,5 @@
 package datastructures.tree;
 
-import java.util.concurrent.atomic.AtomicInteger;
-
 public class TreeNode {
     TreeNode left;
     TreeNode right;
